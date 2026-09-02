@@ -1,0 +1,12 @@
+[project]
+name = "phase_4_5_project"
+version = "0.1.0"
+dependencies = [
+    "mypy",
+    "ruff",
+    "pytest",
+]
+
+[tool.pytest]
+pythonpath = ["."]
+testpaths = ["tests"]
